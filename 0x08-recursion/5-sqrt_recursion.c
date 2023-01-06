@@ -9,7 +9,7 @@ int helper(int i, int n)
 {
 	int j;
 
-			if (i * i != n)
+	if (i * i != n)
 	{
 		if (i > n)
 		{
@@ -28,6 +28,7 @@ int helper(int i, int n)
 int _sqrt_recursion(int n)
 {
 	int i = 0;
+
 	if (helper(i, n) == n && n != 1)
 		return (-1);
 	return (helper(i, n));
