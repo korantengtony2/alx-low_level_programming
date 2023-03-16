@@ -17,7 +17,7 @@ new_node->n = n;
 new_node->prev = NULL;
 /* Update the new node's next pointer to point to the current head node */
 new_node->next = *head;
-/* If the current head node is not NULL, update its prev pointer to point to the new node */
+/* If the current head node is not NULL, update its prev pointer to point */
 if (*head != NULL)
 (*head)->prev = new_node;
 /* Update the head pointer to point to the new node */
